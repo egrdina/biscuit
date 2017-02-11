@@ -1,0 +1,104 @@
+/** This is the CSS for my personal portfolio **/
+
+.top-nav {
+    background-color: #d3d3d3;
+    height: 3.6em;
+}
+
+.top-nav ul,
+.footer-social ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.top-nav li {
+	display: inline;
+	float: right;
+}
+
+.top-nav a  {
+    display: block;
+    padding: 15px;
+    color: #2a2a2a;
+}
+
+.top-nav a:hover {
+	color:#2a2a2a;
+	text-decoration: none;
+}
+
+.top-nav ul li:hover {
+	background: #ffc0cb;
+}
+
+.intro-header{
+	background-color: #2a2a2a;
+	padding: 8%;
+}
+
+h1 {
+    font-family: "Helvetica Neue"; Helvetica; Arial; sans serif;
+    font-size: 10em;
+    text-align: left;
+    color:#ffffff;
+    line-height: 1em;
+    margin: 0px 0px 10px 0px; 
+}
+
+h2 {
+	font-family: "HelveticaNeue-Light"; Helvetica; Arial; sans serif;
+    font-size: 1.7em;
+    text-align: left;
+    color:#ffffff;
+    margin: 0px; 
+}
+
+.projects {
+    max-width:85%;
+    margin: 0 auto 0 auto;
+}
+
+.project-wide {
+    width: 100%;
+    background-color: #d3d3d3; 
+}
+
+.project-wide img,
+.project-thin img {
+    width: 100%;
+}
+
+.project-thin {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #d3d3d3; 
+}
+
+.project-thin-2 {
+    margin: 0 -4px 0 0;
+}
+
+.project-thin-3 {
+    margin: 0 -4px 0 -4px;
+}
+
+.footer-social {
+	background-color: #2a2a2a;
+    padding: 6%;
+}
+
+.footer-social li, 
+i {
+    color:#fff;
+    display: inline;
+    font-size: 2em;
+    margin: 0.5em 0.3em 0 0;
+}
+
+i:hover {
+    color: #ffc0cb;
+}
+
+

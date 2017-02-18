@@ -51,7 +51,7 @@ body {
 .top-nav ul,
 .footer-social ul {
 	list-style: none;
-	margin:0 0 0 0;
+	margin:0 15px 0 0;
 	padding:0;
 }
 
@@ -91,7 +91,7 @@ h1 {
 
 h2 {
 	font-family: "neuton", Georgia, serif;
-    font-weight: 100;
+    font-weight: 00;
     font-size: 1.7em;
     text-align: left;
     color:#ffffff;
@@ -99,6 +99,14 @@ h2 {
 }
 
 h3 {
+    font-family: "bebas", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color:#2a2a2a;
+    line-height: 1em;
+}
+
+h4 {
     font-family: "bebas", Helvetica, Arial, sans-serif;
     font-weight: 700;
     font-size: 1.7em;
@@ -120,12 +128,45 @@ h3 {
     width: 100%;
 }
 
+.articles {
+    max-width:85%;
+    margin: 0 auto 10px auto;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.post-teaser a {
+    color: #2a2a2a;
+    list-style: none;
+    margin:0 0 0 0;
+    padding:0;
+}
+
+.post-teaser a:hover {
+    color: #ffc0cb;
+}
+
+.post-teaser img {
+    display: block;
+    width: 100%;
+}
+
+.button {
+    background-color: #2a2a2a;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0 40px 0;
+}
+
 .footer-social {
     color:#ffffff;
 	background-color: #2a2a2a;
     padding: 6%;
     clear: both;
-
 }
 
 .footer-social h3 {

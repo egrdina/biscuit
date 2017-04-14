@@ -1,10 +1,11 @@
 /** This is the CSS for my personal portfolio **/
 
 body {
-    font-family: neuton;
+    font-family: Raleway;
     font-size: 17px;
+    background-color: #f0f0f0;
 }
-
+/**
 @font-face {
     font-family: bebas;
     src: url("bebas_neue/BebasNeue Bold.otf");
@@ -34,25 +35,38 @@ body {
     src: url("bebas_neue/BebasNeue Light.otf");
     font-weight: 100;
 }
+**/
+
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway/Raleway-Light.ttf");
+}
 
 @font-face {
     font-family: neuton;
-    src: url("neuton/Neuton-Light.ttf");
+    src: url("Neuton/Neuton-Light.ttf");
     font-weight: 100;
 }
 
-.top-nav {
-    font-family: bebas;
+@font-face {
+    font-family: neuton;
+    src: url("Neuton/Neuton-Bold.ttf");
     font-weight: 700;
-    background-color: #d3d3d3;
-    text-align: right;
+}
+
+.top-nav {
+    font-family: neuton;
+    font-weight: 700;
+    background-color: #ffffff;
+    text-align: left;
+    margin-bottom: 1.5em;
 }
 
 .top-nav ul,
 .footer-social ul {
 	list-style: none;
 	margin:0 15px 0 0;
-	padding:0;
+    display: inline-block;
 }
 
 .top-nav li {
@@ -90,7 +104,7 @@ h1 {
 }
 
 h2 {
-	font-family: "neuton", Georgia, serif;
+	font-family: "bebas", Georgia, serif;
     font-weight: 00;
     font-size: 1.7em;
     text-align: left;
@@ -99,13 +113,14 @@ h2 {
 }
 
 h3 {
-    font-family: "bebas", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 3em;
+    font-family: "neuton", Georgia, serif;
+    font-weight: 100;
+    font-size: 2em;
     color:#2a2a2a;
     line-height: 1em;
 }
 
+/**
 h4 {
     font-family: "bebas", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -113,14 +128,22 @@ h4 {
     color:#2a2a2a;
     line-height: 1em;
 }
+**/
 
 .projects {
     max-width:85%;
     margin: 0 auto 0 auto;
+    padding-bottom: 3em;
+}
+
+.project-copy {
+    padding:1em;
 }
 
 .project-wide {
     width: 100%;
+    padding-bottom: 2em; 
+    background-color: #ffffff;
 }
 
 .project-wide img,
@@ -192,6 +215,7 @@ h4 {
 }
 
 .footer-social h3 {
+    display: inline-block;
     color: #ffffff;
     font-weight: 400;
     margin: 0;
@@ -200,7 +224,7 @@ h4 {
 .footer-social li, 
 i {
     color:#fff;
-    display: inline;
+    display: inline-block;
     font-size: 2em;
     margin: 0 0.1em 0 0;
 }

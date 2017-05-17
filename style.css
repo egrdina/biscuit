@@ -1,70 +1,36 @@
 /** This is the CSS for my personal portfolio **/
-
 body {
     font-family: Raleway;
     font-size: 17px;
     background-color: #f0f0f0;
 }
-/**
+
 @font-face {
-    font-family: bebas;
-    src: url("bebas_neue/BebasNeue Bold.otf");
-    font-weight: 700;
+    font-family: Raleway-Regular;
+    src: url("Raleway/Raleway-Regular.ttf");
 }
 
 @font-face {
-    font-family: bebas;
-    src: url("bebas_neue/BebasNeue Regular.otf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: bebas;
-    src: url("bebas_neue/BebasNeue Book.otf");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: bebas;
-    src: url("bebas_neue/BebasNeue Thin.otf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: bebas;
-    src: url("bebas_neue/BebasNeue Light.otf");
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: neuton;
-    src: url("Neuton/Neuton-Light.ttf");
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: neuton;
-    src: url("Neuton/Neuton-Bold.ttf");
-    font-weight: 700;
-}
-**/
-
-@font-face {
-    font-family: Raleway;
+    font-family: Raleway-Light;
     src: url("Raleway/Raleway-Light.ttf");
 }
 
 @font-face {
-    font-family: Montserrat;
+    font-family: Montserrat-Bold;
     src: url("Montserrat/Montserrat-Bold.ttf");
 }
 
+@font-face {
+    font-family: Montserrat-Semibold;
+    src: url("Montserrat/Montserrat-Semibold.ttf");
+}
+
 .top-nav {
-    font-family: Montserrat;
-    font-weight: 700;
+    font-family: Montserrat-Bold;
     background-color: #ffffff;
     text-align: left;
     margin-bottom: 1.5em;
+    font-size: 0.7em;
 }
 
 .top-nav ul,
@@ -118,22 +84,18 @@ h2 {
 }
 
 h3 {
-    font-family: "Montserrat", Georgia, serif;
-    font-weight: 100;
+    font-family: "Montserrat-Bold", Georgia, serif;
     font-size: 2em;
     color:#2a2a2a;
     line-height: 1em;
 }
 
-/**
 h4 {
-    font-family: "bebas", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 1.7em;
+    font-family: "Montserrat-Semibold", Georgia, serif;
+    font-size: 1.2em;
     color:#2a2a2a;
     line-height: 1em;
 }
-**/
 
 .projects {
     max-width:85%;
@@ -147,14 +109,24 @@ h4 {
 
 .project-wide {
     width: 100%;
-    padding-bottom: 2em; 
+    margin-bottom: 2em;
     background-color: #ffffff;
+    border-radius: 5px;
+    border-bottom: 1px solid #d5d5d5;
 }
 
 .project-wide img,
 .project-thin img {
     width: 100%;
 }
+
+.project-thin {
+    margin-bottom: 2em;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
 
 .articles {
     max-width:85%;
@@ -219,10 +191,9 @@ h4 {
     clear: both;
 }
 
-.footer-social h3 {
+.footer-social h4 {
     display: inline-block;
     color: #ffffff;
-    font-weight: 400;
     margin: 0;
 }
 

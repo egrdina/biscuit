@@ -35,12 +35,6 @@ body {
     src: url("bebas_neue/BebasNeue Light.otf");
     font-weight: 100;
 }
-**/
-
-@font-face {
-    font-family: Raleway;
-    src: url("Raleway/Raleway-Light.ttf");
-}
 
 @font-face {
     font-family: neuton;
@@ -53,9 +47,20 @@ body {
     src: url("Neuton/Neuton-Bold.ttf");
     font-weight: 700;
 }
+**/
+
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat/Montserrat-Bold.ttf");
+}
 
 .top-nav {
-    font-family: neuton;
+    font-family: Montserrat;
     font-weight: 700;
     background-color: #ffffff;
     text-align: left;
@@ -113,7 +118,7 @@ h2 {
 }
 
 h3 {
-    font-family: "neuton", Georgia, serif;
+    font-family: "Montserrat", Georgia, serif;
     font-weight: 100;
     font-size: 2em;
     color:#2a2a2a;

@@ -59,6 +59,14 @@ h4 {
     -webkit-font-smoothing: antialiased;
 }
 
+a {
+    color: #2a2a2a;
+}
+
+a:hover {
+    color: #4D40B6;
+}
+
 .top-nav {
     font-family: Montserrat-Bold;
     background-color: #ffffff;
@@ -86,6 +94,7 @@ h4 {
 
 .tldr h4 {
     color: #ffffff;
+    text-align: center;
 }
 
 .drop-cap:first-letter {
@@ -118,12 +127,12 @@ h4 {
 }
 
 .top-nav a:hover {
-	color:#2a2a2a;
+	color:#fff;
 	text-decoration: none;
 }
 
 .top-nav ul li:hover {
-	background: #ffc0cb;
+	background: #4D40B6;
 }
 
 .intro-header{
@@ -244,7 +253,7 @@ i {
 }
 
 i:hover {
-    color: #ffc0cb;
+    color: #EF57CD;
 }
 
 

@@ -54,7 +54,7 @@ h3 {
 h4 {
     font-family: "Montserrat-Semibold", Georgia, serif;
     font-size: 1.2em;
-    color:#2a2a2a;
+    color:#fff;
     line-height: 1.4em;
     -webkit-font-smoothing: antialiased;
 }
@@ -65,12 +65,13 @@ a {
 
 a:hover {
     color: #4D40B6;
+    -webkit-font-smoothing: antialiased;
 }
 
 .top-nav {
     font-family: Montserrat-Bold;
     background-color: #ffffff;
-    text-align: left;
+    text-align: right;
     margin-bottom: 1.5em;
     font-size: 0.7em;
 }
@@ -80,21 +81,23 @@ a:hover {
 }
 
 .tldr {
-    background-color: #7F7976;
+    background-color: #2a2a2a;
     color: #ffffff;
     padding: 3% 6% 6%;
     margin:-1em 10em;
+    text-align: center;
 }
 
 .tldr h5 {
     display: inline-block;
     background-color: #2a2a2a;
     padding: 1%;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 4px
 }
 
 .tldr h4 {
     color: #ffffff;
-    text-align: center;
 }
 
 .drop-cap:first-letter {
@@ -171,7 +174,7 @@ a:hover {
 }
 
 .project-header {
-    background-color: #2a2a2a;
+    background-color: #4D40B6;
     padding: 6% 6% 8%;
 }
 

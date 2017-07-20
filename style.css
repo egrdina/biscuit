@@ -25,6 +25,11 @@ body {
     src: url("Montserrat/Montserrat-Semibold.ttf");
 }
 
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("Montserrat/Montserrat-Regular.ttf");
+}
+
 h1 {
     font-family: "Montserrat-Bold", Georgia, serif;
     font-weight: 700;
@@ -290,4 +295,20 @@ i:hover {
     color: #EF57CD;
 }
 
+@media (max-width: 768px) {
+    .index .tldr {
+    padding: 10% 8%; 
+    }
+}
 
+@media (max-width: 350px) {
+    .index .tldr {
+    padding: 10% 5%; 
+    }
+
+    h4 {
+    font-family: Montserrat-Regular;
+    font-size: 1em;
+    line-height: 1.3em;
+    }
+}

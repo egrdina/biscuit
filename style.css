@@ -333,6 +333,20 @@ i:hover {
     color: #EF57CD;
 }
 
+@media (max-width: 1100px) {
+    .single-jetpack-portfolio .tldr {
+        margin: -1em 5em;
+    }
+
+    .project-header h1 {
+        font-size: 7em;
+    }
+
+    .content {
+        margin: 0 5em;
+    }
+}
+
 @media (max-width: 940px) {
     .project-thin h3 {
     font-size: 1.5em;
@@ -356,6 +370,35 @@ i:hover {
     .project-copy {
         margin: -1em 1em 3em;
     }
+
+    .project-header { 
+        padding: 6% 7% 10%;
+    }
+
+    .project-header h1 {
+        font-size: 4em;
+    }
+
+    .single-jetpack-portfolio .tldr {
+        margin: -1.3em 3em;
+    }
+
+    .tldr h5 {
+        font-size: 12px;
+    }
+
+    .tldr p {
+        font-family: Montserrat-Medium;
+        font-size: 1em;
+    }
+
+    .content {
+        margin: 0 3em;
+    }
+
+    .content p:first-child:first-letter {
+        font-size: 500%;
+    }
 }
 
 @media (max-width: 650px) {
@@ -373,7 +416,36 @@ i:hover {
     }
 }
 
+@media (max-width: 520px) {
+    .project-header h1 { 
+    font-family: Montserrat-Medium;
+    font-size: 2em;
+    margin: 0.5em;
+    letter-spacing: 1px;
+    }
+
+    .project-header {
+        padding: 6% 7% 6%;
+    } 
+
+    .single-jetpack-portfolio .tldr {
+        margin: -1em 1em;
+    }
+
+    .content {
+        margin: 0 1em;
+    }
+
+    .content p:first-child:first-letter {
+        font-size: 300%;
+    }
+}
+
 @media (max-width: 350px) {
+    .logo h2 {
+        font-size: 1.5em;
+    }
+
     .home .tldr {
     padding: 10% 5%; 
     }
@@ -390,3 +462,4 @@ i:hover {
     margin-top: 10px;
     }
 }
+

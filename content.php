@@ -4,15 +4,14 @@
  */
 ?>
 
-	<article <?php post_class(); ?>>
-	
-		<header class="project-header">			
-			<?php the_post_thumbnail(); ?>			
-			<h1><?php the_title(); ?></h1>			
-		</header>
-		
-		<div class="content">
-			<?php the_content(); ?>
-		</div>
+<article <?php post_class(); ?>>
 
-	</article>
+    <header class="project-header">			
+        <h1><?php the_title(); ?></h1>			
+    </header>
+    
+    <div class="content">
+        <?php the_content(); ?>
+    </div>
+
+</article>

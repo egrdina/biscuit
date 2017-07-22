@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <title><?php wp_title( '|', true, 'right' ); ?> Emma Grdina</title>
 	<meta charset=utf-8 />
 
     <?php wp_head(); ?>

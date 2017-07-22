@@ -11,6 +11,8 @@
 function add_portfolio_excerpt_custom_fields() {
 	add_post_type_support( 'jetpack-portfolio', 'excerpt' );
 	add_post_type_support( 'jetpack-portfolio', 'custom-fields' );
+    add_theme_support( 'post-thumbnails', array( 'jetpack-portfolio' ) );
+
 }
 add_action( 'init', 'add_portfolio_excerpt_custom_fields' );
 

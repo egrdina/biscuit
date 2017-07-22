@@ -15,27 +15,27 @@ body {
 
 @font-face {
     font-family: Raleway-Regular;
-    src: url("Raleway/Raleway-Regular.ttf");
+    src: url("../Raleway/Raleway-Regular.ttf");
 }
 
 @font-face {
     font-family: Raleway-Light;
-    src: url("Raleway/Raleway-Light.ttf");
+    src: url("../Raleway/Raleway-Light.ttf");
 }
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url("Montserrat/Montserrat-Bold.ttf");
+    src: url("../Montserrat/Montserrat-Bold.ttf");
 }
 
 @font-face {
     font-family: Montserrat-Semibold;
-    src: url("Montserrat/Montserrat-Semibold.ttf");
+    src: url("../Montserrat/Montserrat-Semibold.ttf");
 }
 
 @font-face {
     font-family: Montserrat-Regular;
-    src: url("Montserrat/Montserrat-Regular.ttf");
+    src: url("../Montserrat/Montserrat-Regular.ttf");
 }
 
 h1 {
@@ -127,7 +127,7 @@ a:hover {
     margin:-1em 10em;
 }
 
-.home .tldr {
+.index .tldr {
     padding: 10% 15%;
     margin-bottom: 6%
 }
@@ -311,7 +311,7 @@ i:hover {
 }
 
 @media (max-width: 768px) {
-    .home .tldr {
+    .index .tldr {
     padding: 10% 8%; 
     }
 
@@ -332,7 +332,7 @@ i:hover {
 }
 
 @media (max-width: 350px) {
-    .home .tldr {
+    .index .tldr {
     padding: 10% 5%; 
     }
 

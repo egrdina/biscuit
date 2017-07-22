@@ -7,6 +7,14 @@ License: MIT
 */
 
 /** This is the CSS for my personal portfolio **/
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
 body {
     font-family: Raleway;
     font-size: 17px;
@@ -63,7 +71,8 @@ h3 {
     line-height: 1em;
 }
 
-h4 {
+h4,
+.tldr p {
     font-family: "Montserrat-Semibold", Georgia, serif;
     font-size: 1.2em;
     color:#fff;
@@ -120,7 +129,7 @@ a:hover {
     text-align: center;
 }
 
-.project-page .tldr {
+.single-jetpack-portfolio .tldr {
     background-color: #2a2a2a;
     color: #ffffff;
     padding: 3% 6% 6%;
@@ -140,17 +149,17 @@ a:hover {
     letter-spacing: 4px
 }
 
-.tldr h4 {
+.tldr p {
     color: #ffffff;
 }
 
-.drop-cap:first-letter {
+.content p:first-child:first-letter {
     font-size: 750%;
     float:left;
     margin: -.3em .2em -0.3em 0;
 }
 
-.project-body {
+.content {
     background-color: #ffffff;
     margin: 0 10em;
     padding: 6%;
@@ -336,7 +345,8 @@ i:hover {
     padding: 10% 5%; 
     }
 
-    h4 {
+    h4,
+    .tldr p {
     font-family: Montserrat-Regular;
     font-size: 1em;
     line-height: 1.3em;

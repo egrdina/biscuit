@@ -10,11 +10,11 @@
 
 <div class="top-nav">
     <div class="logo">
-        <h2><a href="index.html">Emma Grdina</a></h2>
+    <h2><a href="<?= home_url()?>">Emma Grdina</a></h2>
     </div>
     <ul class="nav-links"> 
       <li><a target="_blank" href="https://emmagracegrdina.com/">Blog</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>
 
     <?php /*wp_nav_menu( array(

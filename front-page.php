@@ -2,7 +2,10 @@
 
 <div class="tldr">    
     <h5>THE GIST</h5>
-        <h4>I'm Emma Grdina, a Senior Product Designer at The Washington Post. I have a demonstrated history of challenging assumptions and putting the user first. I’m most excited about the intersection of design, storytelling and building online communities.</h2>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+    <?php the_content(); ?>
+    <?php endwhile; endif; ?>
 </div>
 
 <div class="projects">

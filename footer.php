@@ -7,7 +7,7 @@
             </a>
         </li>
         <li>
-            <a href="http://www.instagram.com/emmagracegrdina">
+            <a href="https://www.instagram.com/emmagrdina/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
         </li>

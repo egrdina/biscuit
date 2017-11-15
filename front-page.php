@@ -64,7 +64,8 @@ while ($query->have_posts()) {
             </div><!-- /.col-xs-6 -->
         </div><!-- /.project-thin -->
         <?php $posts_in_this_row_so_far = ($posts_in_this_row_so_far + 1) % 2;
-            if ($posts_in_this_row_so_far == 0) { ?>
+            // If this post is the last post in the row OR the last post on the page, then close the row div.
+            if ($posts_in_this_row_so_far == 0 || $query->post_count - 1 == $query->current_post) { ?>
                 </div><!-- /.row.clearfix -->
             <?php }
         ?>

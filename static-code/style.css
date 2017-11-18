@@ -175,26 +175,16 @@ a:hover {
     padding-bottom: 3em;
 }
 
-.project-copy {
+.project {
     padding:3% 5%;
     margin: -2em 2em 3em;
-    background-color: #ffffff;
-    border-radius: 4px;
-    border-bottom: 1px solid #d5d5d5;
     display: inline-block;
     text-align: center;
 }
 
-.project-wide img,
-.project-thin img {
+.project img {
     width: 100%;
 }
-
-.project-thin-copy {
-    padding: 3% 7%;
-    margin: -2em 2em 3em;
-}
-
 
 .project-header {
     background-color: #726AB4;

@@ -32,6 +32,11 @@ License: MIT
     src: url("../Montserrat/Montserrat-Regular.ttf");
 }
 
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("../Montserrat/Montserrat-Light.ttf");
+}
+
 body {
     font-family: Montserrat;
     font-size: 17px;
@@ -63,8 +68,8 @@ h3 {
 }
 
 h4 {
-    font-family: "PlayfairDisplay-Bold", Georgia, serif;
-    font-size: 1.2em;
+    font-family: Montserrat-Regular;
+    font-size: 1em;
     color:#fff;
     line-height: 1.4em;
     -webkit-font-smoothing: antialiased;
@@ -140,14 +145,9 @@ a:hover {
     padding: 6%;
 }
 
-.top-nav ul,
-.footer-social ul {
+.top-nav ul {
 	list-style: none;
 	margin:0 15px 0 0;
-}
-
-.footer-social ul {
-    display: inline-block;
 }
 
 .top-nav li {
@@ -179,11 +179,10 @@ a:hover {
     padding:3% 5%;
     margin: -2em 2em 3em;
     display: inline-block;
-    text-align: center;
 }
 
 .project img {
-    width: 100%;
+    width: 25%;
 }
 
 .project-header {
@@ -225,47 +224,30 @@ a:hover {
     margin: 10px 0 40px 0;
 }
 
-.pagination {
-    margin: 20px 0 20p 40px;
-}    
-
-.pagination a {
-    font-family: bebas;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-}
-
-.pagination a.active {
-    background-color: #ffc0cb;
-    color: black;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: #2a2a2a;
-    color: white;
-}
 
 .footer-social {
-    color:#ffffff;
-	background-color: #2a2a2a;
-    padding: 6%;
-    clear: both;
+    color:#2a2a2a;
+    padding: 4%;
+    text-align: center;
 }
 
 .footer-social h4 {
     display: inline-block;
-    color: #ffffff;
+    color: #2a2a2a;
     margin: 0;
+}
+
+.footer-social ul {
+    display: inline-block;
+    margin: 0 0 0 -1.6em;
 }
 
 .footer-social li, 
 i {
-    color:#fff;
+    color:#2a2a2a;
     display: inline-block;
-    font-size: 2em;
-    margin: 0 0.1em 0 0;
+    font-size: 1.5em;
+    margin: 0 0.2em 0 0;
 }
 
 i:hover {

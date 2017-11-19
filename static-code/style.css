@@ -94,16 +94,17 @@ a:hover {
 }
 
 .top-nav {
-    font-family: Montserrat-Bold;
+    font-family: Montserrat-Regular;
     background-color: #F5C551;
-    font-size: 0.7em;
-    display: flex;
+    font-size: 0.9em;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 5%;
+    text-align: center;
 }
 
 .project-page .top-nav {
-    margin-bottom: 0;
+    margin-bottom: 2%;
 }
 
 .tldr {
@@ -120,8 +121,7 @@ a:hover {
 }
 
 .index .tldr {
-    padding: 20% 15%;
-    margin-bottom: 6%
+    padding: 15%;
 }
 
 .tldr h5 {
@@ -147,7 +147,7 @@ a:hover {
 
 .top-nav ul {
 	list-style: none;
-	margin:0 15px 0 0;
+	padding: 2%;
 }
 
 .top-nav li {
@@ -176,13 +176,22 @@ a:hover {
 }
 
 .project {
+    width: 100%;
     padding:3% 5%;
-    margin: -2em 2em 3em;
     display: inline-block;
 }
 
 .project img {
-    width: 25%;
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.project-copy {
+    display: inline-block;
+    width: calc(100% - 220px);
+    vertical-align: middle;
 }
 
 .project-header {

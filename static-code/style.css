@@ -224,7 +224,6 @@ a:hover {
     margin: 10px 0 40px 0;
 }
 
-
 .footer-social {
     color:#2a2a2a;
     padding: 4%;
@@ -234,7 +233,7 @@ a:hover {
 .footer-social h4 {
     display: inline-block;
     color: #2a2a2a;
-    margin: 0;
+    margin: 0 0 1% 0;
 }
 
 .footer-social ul {
@@ -251,7 +250,7 @@ i {
 }
 
 i:hover {
-    color: #EF57CD;
+    color: #667570;
 }
 
 @media (max-width: 940px) {

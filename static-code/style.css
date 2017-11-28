@@ -145,6 +145,7 @@ a:hover {
 .top-nav ul {
 	list-style: none;
 	padding: 2%;
+    margin-bottom: 2px;
 }
 
 .top-nav li {

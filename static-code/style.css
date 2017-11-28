@@ -84,13 +84,12 @@ a {
     color: #fff;
 }
 
-h3 a {
-    color: #2a2a2a;
+a:hover {
+    text-decoration: none;
 }
 
-a:hover {
-    color: #726AB4;
-    -webkit-font-smoothing: antialiased;
+h3 a {
+    color: #2a2a2a;
 }
 
 .top-nav {
@@ -101,6 +100,16 @@ a:hover {
     align-items: baseline;
     margin-bottom: 5%;
     text-align: center;
+}
+
+.logo a:hover {
+    color: #fff;
+    -webkit-font-smoothing: never;
+}
+
+.logo h2 {
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
 }
 
 
@@ -144,8 +153,8 @@ a:hover {
 
 .top-nav ul {
 	list-style: none;
-	padding: 2%;
-    margin-bottom: 2px;
+	padding: 1% 2%;
+    margin-bottom: -3px;
 }
 
 .top-nav li {
@@ -158,8 +167,11 @@ a:hover {
     color: #fff;
 }
 
-.top-nav a:hover {
-	text-decoration: underline;
+.nav-links a {
+    border-bottom: 2px solid #F5C551;
+}
+.nav-links a:hover {
+	border-bottom: 2px solid #ffffff;
 }
 
 .intro-header{

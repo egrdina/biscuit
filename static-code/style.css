@@ -103,9 +103,6 @@ a:hover {
     text-align: center;
 }
 
-.project-page .top-nav {
-    margin-bottom: 2%;
-}
 
 .tldr {
     background-color: #F5C551;
@@ -169,6 +166,11 @@ a:hover {
 	padding: 8%;
 }
 
+
+.project-page .top-nav {
+    display: flex;
+}
+
 .projects {
     max-width:85%;
     margin: 0 auto 0 auto;
@@ -177,7 +179,7 @@ a:hover {
 
 .project {
     width: 100%;
-    padding:3% 5%;
+    padding: 0 4%;
     display: inline-block;
 }
 
@@ -189,15 +191,15 @@ a:hover {
     padding: 20px;
 }
 
+.project-header h1 {
+    color: #2a2a2a;
+    text-align: center;
+}
+
 .project-copy {
     display: inline-block;
     width: calc(100% - 220px);
     vertical-align: middle;
-}
-
-.project-header {
-    background-color: #726AB4;
-    padding: 6% 6% 8%;
 }
 
 .articles {

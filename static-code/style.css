@@ -65,6 +65,7 @@ h3 {
     font-size: 2em;
     color:#2a2a2a;
     line-height: 1.3em;
+    margin-top: -8px;
 }
 
 h4 {
@@ -85,6 +86,7 @@ a {
 }
 
 a:hover {
+    color: #667570;
     text-decoration: none;
 }
 
@@ -140,15 +142,16 @@ h3 a {
 }
 
 .drop-cap:first-letter {
-    font-size: 750%;
+    font-family: layfairDisplay-Regular;
+    font-size: 500%;
     float:left;
-    margin: -.3em .2em -0.3em 0;
+    margin: -.3em .1em -0.3em 0;
 }
 
 .project-body {
     background-color: #ffffff;
     margin: 0 10em;
-    padding: 6%;
+    padding: 3% 5%;
 }
 
 .top-nav ul {
@@ -174,18 +177,21 @@ h3 a {
 	border-bottom: 2px solid #ffffff;
 }
 
+.project-page .top-nav {
+    margin-bottom: 0;
+}
+
 .intro-header{
 	background-color: #2a2a2a;
 	padding: 8%;
 }
-
 
 .project-page .top-nav {
     display: flex;
 }
 
 .projects {
-    max-width:85%;
+    max-width: 85%;
     margin: 0 auto 0 auto;
     padding-bottom: 3em;
 }
@@ -198,10 +204,15 @@ h3 a {
 
 .project img {
     width: 100%;
-    max-width: 210px;
+    max-width: 300px;
     display: inline-block;
     vertical-align: middle;
     padding: 20px;
+}
+
+.main img {
+    margin-bottom: 5%;
+    width: 100%;
 }
 
 .project-header h1 {
@@ -211,7 +222,7 @@ h3 a {
 
 .project-copy {
     display: inline-block;
-    width: calc(100% - 220px);
+    width: calc(100% - 320px);
     vertical-align: middle;
 }
 
@@ -278,47 +289,92 @@ i:hover {
     color: #667570;
 }
 
-@media (max-width: 940px) {
-    .project-thin h3 {
-    font-size: 1.5em;
-    line-height: 1.2em;
+@media (max-width: 1024px) {
+    .project img {
+        max-width: 300px;
+    }
+
+    .project-body {
+        margin: 0 4em;
     }
 }
+
 
 @media (max-width: 768px) {
     .index .tldr {
-    padding: 10% 8%; 
+        padding: 10% 8%; 
     }
 
-    .project-copy {
-        margin: -1em 1em 3em;
+    .project-body {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 4em;
     }
 }
 
-@media (max-width: 650px) {
-    .col-xs-6 {
+@media (max-width: 600px) {
+    .projects {
+        max-width: 100%;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project img {
+        max-width: 600px;
+        padding: 0;
+    }
+
+    .project-copy {
         width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: baseline;
     }
 
-    .project-copy {
-        margin: -1em 1em 1em;
+    h3 {
+        margin-top: 8px;
+    }
+
+    h5 {
+        line-height: 1.5em;
+        margin-right: 3%;
     }
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
     .index .tldr {
     padding: 10% 5%; 
     }
 
-h4 {
-    font-family: Montserrat-Regular;
-    font-size: 1em;
-    line-height: 1.3em;
-}
+    h1 {
+        font-size: 4em;
+        line-height: 1.1em;
+        margin: -3% 0 1%;
+    }
+
+    h4 {
+        font-family: Montserrat-Regular;
+        font-size: 1em;
+        line-height: 1.3em;
+    }
 
     .project-copy h3 {
     font-size: 1.5em;
-    margin-top: 10px;
+    }
+
+    .project-header h1 {
+        font-size: 4em;
+    }
+
+    .drop-cap:first-letter {
+        font-family: layfairDisplay-Regular;
+        font-size: 400%;
+        float:left;
+        margin: -.3em .2em -0.3em 0;
     }
 }

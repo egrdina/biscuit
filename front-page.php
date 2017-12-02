@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<div class="project-header">
+    <h1>My work</h1>
+</div>
+
 <div class="projects">
 
     <?php

@@ -82,12 +82,12 @@ h5 {
 }
 
 a {
-    color: #fff;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #667570;
-    text-decoration: none;
+    color: #667570; 
+    text-decoration: underline;
 }
 
 h3 a {

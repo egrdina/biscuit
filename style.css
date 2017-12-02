@@ -15,25 +15,15 @@ a img.alignright {float:right; margin:0 0 1em 1em}
 a img.alignleft {float:left; margin:0 1em 1em 0}
 a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 
-body {
-    font-family: Raleway;
-    font-size: 17px;
-    background-color: #f0f0f0;
+
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url("Playfair_Display/PlayfairDisplay-Regular.ttf");
 }
 
 @font-face {
-    font-family: Raleway-Bold;
-    src: url("Raleway/Raleway-Bold.ttf");
-}
-
-@font-face {
-    font-family: Raleway-Regular;
-    src: url("Raleway/Raleway-Regular.ttf");
-}
-
-@font-face {
-    font-family: Raleway-Light;
-    src: url("Raleway/Raleway-Light.ttf");
+    font-family: PlayfairDisplay-Bold;
+    src: url("Playfair_Display/PlayfairDisplay-Bold.ttf");
 }
 
 @font-face {
@@ -43,12 +33,7 @@ body {
 
 @font-face {
     font-family: Montserrat-Semibold;
-    src: url("Montserrat/Montserrat-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: Montserrat-Medium;
-    src: url("Montserrat/Montserrat-Medium.ttf");
+    src: url("Montserrat/Montserrat-Semibold.ttf");
 }
 
 @font-face {
@@ -56,86 +41,106 @@ body {
     src: url("Montserrat/Montserrat-Regular.ttf");
 }
 
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("Montserrat/Montserrat-Light.ttf");
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 17px;
+    background-color: #fff;
+}
+
 h1 {
-    font-family: "Montserrat-Bold", Georgia, serif;
-    font-weight: 700;
-    font-size: 8em;
+    font-family: "PlayfairDisplay-Regular", Georgia, serif;
+    font-size: 5em;
     text-align: center;
     color:#ffffff;
     line-height: 1em;
-    margin: 15px 0px -15px -5px; 
+    margin-top: -1%;
 }
 
 h2 {
-    font-family: "Montserrat-Bold", Georgia, serif;
+    font-family: "PlayfairDisplay-Regular", Georgia, serif;
     font-size: 1.7em;
     text-align: left;
     color:#ffffff;
     margin: 0px; 
-    white-space: nowrap;
 }
 
 h3 {
-    font-family: "Montserrat-Bold", Georgia, serif;
+    font-family: "PlayfairDisplay-Regular", Georgia, serif;
     font-size: 2em;
     color:#2a2a2a;
-    line-height: 1em;
+    line-height: 1.3em;
+    margin-top: -8px;
 }
 
-h4,
-.tldr p {
-    font-family: "Montserrat-Semibold", Georgia, serif;
-    font-size: 1.2em;
+h4 {
+    font-family: Montserrat-Regular;
+    font-size: 1em;
     color:#fff;
     line-height: 1.4em;
     -webkit-font-smoothing: antialiased;
 }
 
+h5 {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+}
+
 a {
-    color: #2a2a2a;
+    color: #999;
 }
 
 a:hover {
-    color: #726AB4;
-    -webkit-font-smoothing: antialiased;
+    color: #667570;
+    text-decoration: none;
+}
+
+h3 a {
+    color: #2a2a2a;
 }
 
 .top-nav {
-    font-family: Montserrat-Bold;
-    background-color: #ffffff;
-    font-size: 0.7em;
-    display: flex;
+    font-family: Montserrat-Regular;
+    background-color: #F5C551;
+    font-size: 0.9em;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    padding: 0 4%;
+    display: flex;
 }
 
-.logo {
-    padding: 1% 2%;
-    border: 4px solid #2a2a2a;
-    margin: 20px;
-    border-radius: 2px;
+.home .top-nav {
+    display: block;
 }
 
-.logo:hover {
-    background-color: #2a2a2a;
-}
-
-.logo a {
-    color: #2a2a2a;
-    font-family: Montserrat-Semibold;
-}
-
-.logo:hover a {
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-}
-
-.project-page .top-nav {
+.single-jetpack-portfolio .top-nav {
     margin-bottom: 0;
 }
 
+.top-nav a {
+    color: #fff;
+}
+
+.logo a:hover {
+    color: #fff;
+    -webkit-font-smoothing: never;
+}
+
+.logo h2 {
+    font-size: 1.4em;
+    letter-spacing: 0.5px;
+}
+
+
 .tldr {
-    background-color: #2a2a2a;
+    background-color: #F5C551;
     color: #ffffff;
     text-align: center;
 }
@@ -148,133 +153,93 @@ a:hover {
 }
 
 .home .tldr {
-    padding: 10% 15%;
-    margin-bottom: 6%
+    padding: 15%;
 }
 
 .tldr h5 {
     display: inline-block;
-    background-color: #2a2a2a;
     padding: 1%;
-    border-bottom: 1px solid #fff;
-    letter-spacing: 4px
 }
 
-.tldr p {
+.tldr h4 {
     color: #ffffff;
 }
 
-.content p:first-child:first-letter {
-    font-size: 750%;
+.drop-cap:first-letter {
+    font-family: layfairDisplay-Regular;
+    font-size: 500%;
     float:left;
-    margin: -.3em .2em -0.3em 0;
+    margin: -.3em .1em -0.3em 0;
 }
 
 .content {
     background-color: #ffffff;
     margin: 0 10em;
-    padding: 6%;
+    padding: 3% 5%;
 }
-
 .content img {
     width: 100%;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    height: 100%;
+    max-height: 100%;
 }
 
-ul {
-    padding: 0;
-}
-
-.footer-social h4 {
-    vertical-align: middle;
-    padding-right: 10px;
-}
-
-.footer-social ul {
-    vertical-align: middle;
-}
-
-.top-nav ul,
-.footer-social ul {
-	list-style: none;
-	margin:0 15px 0 0;
-}
-
-.footer-social ul {
-    display: inline-block;
+.top-nav ul {
+    list-style: none;
+    padding: 1% 2%;
+    margin-bottom: -3px;
 }
 
 .top-nav li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .nav-links a {
     display: block;
-    padding: 20px;
-    color: #2a2a2a;
-    font-size: 1.2em;
+    padding: 15px;
+    color: #fff;
 }
 
-.top-nav a:hover {
-	color:#fff;
-	text-decoration: none;
+.nav-links a {
+    border-bottom: 2px solid #F5C551;
 }
-
-.top-nav ul li:hover {
-	font-weight: bold;
-    background: #726AB4;
-    border-radius: 2px;
-}
-
-.content a {
-    font-family: Raleway-Bold;
-    border-bottom: 1px solid #2a2a2a;
-    padding-bottom: 1px;
-}
-
-.content a:hover {
-    color: #726AB4;
-    text-decoration: none;
-    border-bottom: 2px solid #726AB4;
+.nav-links a:hover {
+    border-bottom: 2px solid #ffffff;
 }
 
 .intro-header{
-	background-color: #2a2a2a;
-	padding: 8%;
+    background-color: #2a2a2a;
+    padding: 8%;
 }
 
 .projects {
-    max-width:85%;
+    max-width: 85%;
     margin: 0 auto 0 auto;
     padding-bottom: 3em;
 }
 
-.project-copy {
-    padding:3% 5%;
-    margin: -2em 2em 3em;
-    background-color: #ffffff;
-    border-radius: 4px;
-    border-bottom: 1px solid #d5d5d5;
+.project img {
+    width: 100%;
+    max-width: 300px;
     display: inline-block;
-    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
 }
 
-.project-wide img,
-.project-thin img {
+.main img {
+    margin-bottom: 5%;
     width: 100%;
 }
 
-.project-thin-copy {
-    padding: 3% 7%;
-    margin: -2em 2em 3em;
+.project-header h1 {
+    color: #2a2a2a;
+    text-align: center;
 }
 
-
-.project-header {
-    background-color: #726AB4;
-    padding: 6% 6% 8%;
+.project-copy {
+    display: inline-block;
+    width: calc(100% - 320px);
+    vertical-align: middle;
 }
 
 .articles {
@@ -311,180 +276,123 @@ ul {
     margin: 10px 0 40px 0;
 }
 
-.pagination {
-    margin: 20px 0 20p 40px;
-}    
-
-.pagination a {
-    font-family: bebas;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-}
-
-.pagination a.active {
-    background-color: #ffc0cb;
-    color: black;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: #2a2a2a;
-    color: white;
-}
-
 .footer-social {
-    color:#ffffff;
-	background-color: #2a2a2a;
-    padding: 6%;
-    clear: both;
+    color:#2a2a2a;
+    padding: 4%;
+    text-align: center;
 }
 
 .footer-social h4 {
     display: inline-block;
-    color: #ffffff;
-    margin: 0;
+    color: #2a2a2a;
+    margin: 0 0 1% 0;
+}
+
+.footer-social ul {
+    display: inline-block;
+    margin: 0 0 0 -1.6em;
 }
 
 .footer-social li, 
 i {
-    color:#fff;
+    color:#2a2a2a;
     display: inline-block;
-    font-size: 2em;
-    margin: 0 0.1em 0 0;
+    font-size: 1.5em;
+    margin: 0 0.2em 0 0;
 }
 
 i:hover {
-    color: #EF57CD;
+    color: #667570;
 }
 
-@media (max-width: 1100px) {
-    .single-jetpack-portfolio .tldr {
-        margin: -1em 5em;
-    }
-
-    .project-header h1 {
-        font-size: 7em;
+@media (max-width: 1024px) {
+    .project img {
+        max-width: 300px;
     }
 
     .content {
-        margin: 0 5em;
+        margin: 0 4em;
     }
 }
 
-@media (max-width: 940px) {
-    .project-thin h3 {
-    font-size: 1.5em;
-    line-height: 1.2em;
-    }
-}
 
 @media (max-width: 768px) {
-    .logo {
-        border: 3px solid #2a2a2a;
-    }
-
-    .logo a {
-        font-family: Montserrat-Medium;
-    }
-
     .home .tldr {
-    padding: 10% 8%; 
+        padding: 10% 8%; 
+    }
+
+    .content {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects {
+        max-width: 100%;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project img {
+        max-width: 600px;
+        padding: 0;
     }
 
     .project-copy {
-        margin: -1em 1em 3em;
+        width: 100%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: baseline;
     }
 
-    .project-header { 
-        padding: 6% 7% 10%;
+    h3 {
+        margin-top: 8px;
+    }
+
+    h5 {
+        line-height: 1.5em;
+        margin-right: 3%;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .home .tldr {
+    padding: 10% 5%; 
+    }
+
+    h1 {
+        font-size: 4em;
+        line-height: 1.1em;
+        margin: -3% 0 1%;
+    }
+
+    h4 {
+        font-family: Montserrat-Regular;
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+
+    .project-copy h3 {
+    font-size: 1.5em;
     }
 
     .project-header h1 {
         font-size: 4em;
     }
 
-    .single-jetpack-portfolio .tldr {
-        margin: -1.3em 3em;
-    }
-
-    .tldr h5 {
-        font-size: 12px;
-    }
-
-    .tldr p {
-        font-family: Montserrat-Medium;
-        font-size: 1em;
-    }
-
-    .content {
-        margin: 0 3em;
-    }
-
-    .content p:first-child:first-letter {
-        font-size: 500%;
+    .drop-cap:first-letter {
+        font-family: layfairDisplay-Regular;
+        font-size: 400%;
+        float:left;
+        margin: -.3em .2em -0.3em 0;
     }
 }
 
-@media (max-width: 650px) {
-    .nav-links a {
-        padding: 15px;
-        font-family: Montserrat-Medium;
-    }
-
-    .col-xs-6 {
-        width: 100%;
-    }
-
-    .project-copy {
-        margin: -1em 1em 1em;
-    }
-}
-
-@media (max-width: 520px) {
-    .project-header h1 { 
-    font-family: Montserrat-Medium;
-    font-size: 2em;
-    margin: 0.5em;
-    letter-spacing: 1px;
-    }
-
-    .project-header {
-        padding: 6% 7% 6%;
-    } 
-
-    .single-jetpack-portfolio .tldr {
-        margin: -1em 1em;
-    }
-
-    .content {
-        margin: 0 1em;
-    }
-
-    .content p:first-child:first-letter {
-        font-size: 300%;
-    }
-}
-
-@media (max-width: 350px) {
-    .logo h2 {
-        font-size: 1.5em;
-    }
-
-    .home .tldr {
-    padding: 10% 5%; 
-    }
-
-    h4,
-    .tldr p {
-    font-family: Montserrat-Regular;
-    font-size: 1em;
-    line-height: 1.3em;
-    }
-
-    .project-copy h3 {
-    font-size: 1.5em;
-    margin-top: 10px;
-    }
-}
 

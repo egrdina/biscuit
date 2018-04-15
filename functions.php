@@ -4,6 +4,11 @@
  */
 
 /**
+ * Allow pages (like About) to have featured images
+ */
+add_theme_support( 'post-thumbnails' );
+
+/**
  * Add Excerpt and Custom Fields support to the Portfolio Custom Post Type.
  *
  * @see https://wordpress.org/support/topic/no-excerpt-on-portfolio-posts/

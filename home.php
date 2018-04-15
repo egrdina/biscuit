@@ -7,9 +7,15 @@ get_header(); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 
             <div class="content">
+                <?php if (has_post_thumbnail($post->ID)) { ?>
+                    <div class="main img">
+                        <a href="<?php echo get_permalink(); ?>"><img src="<?= wp_get_attachment_url(get_post_thumbnail_id($post->ID)) ?>" /></a>
+                    </div>
+                <?php } ?>
+
                 <h2><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></h2></a>
 
-                <?php the_content('<div class="moretext">Continue reading</div>'); ?>
+                <?php the_content('<div class="moretext">Read more</div>'); ?>
             </div>
 
 	<?php endwhile; ?>

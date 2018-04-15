@@ -109,7 +109,6 @@ h3 a {
     font-size: 0.9em;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 5%;
     text-align: center;
     width: 100%;
     padding: 0 4%;
@@ -118,10 +117,7 @@ h3 a {
 
 .home .top-nav {
     display: block;
-}
-
-.single-jetpack-portfolio .top-nav {
-    margin-bottom: 0;
+    margin-bottom: 5%;
 }
 
 .top-nav a {
@@ -143,6 +139,10 @@ h3 a {
 .logo h2 {
     font-size: 1.4em;
     letter-spacing: 0.5px;
+}
+
+.post:not(.has-post-thumbnail) {
+    margin-top: 5%;
 }
 
 
@@ -179,7 +179,7 @@ h3 a {
     text-decoration: none;
 }
 
-.content p:first-child:first-letter {
+.single-jetpack-portfolio .content p:first-child:first-letter {
     font-family: PlayfairDisplay-Regular;
     font-size: 500%;
     float:left;
@@ -257,6 +257,8 @@ h3 a {
 .project-header h1 {
     color: #2a2a2a;
     text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .project-copy {

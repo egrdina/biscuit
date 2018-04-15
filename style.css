@@ -47,7 +47,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 }
 
 body {
-    font-family: Montserrat;
+    font-family: Montserrat-Regular;
     font-size: 17px;
     background-color: #fff;
 }
@@ -172,8 +172,15 @@ h3 a {
     color: #ffffff;
 }
 
+.content h2 {
+    margin-bottom: 1em;
+}
+.content h2 a {
+    text-decoration: none;
+}
+
 .content p:first-child:first-letter {
-    font-family: layfairDisplay-Regular;
+    font-family: PlayfairDisplay-Regular;
     font-size: 500%;
     float:left;
     margin: -.3em .1em -0.3em 0;
@@ -407,7 +414,7 @@ i:hover {
     }
 
     .content p:first-child:first-letter {
-        font-family: layfairDisplay-Regular;
+        font-family: PlayfairDisplay-Regular;
         font-size: 400%;
         float:left;
         margin: -.3em .2em -0.3em 0;

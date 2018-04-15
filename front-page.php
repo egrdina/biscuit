@@ -19,7 +19,7 @@
 
         <div class="project">
             <?php $img_url = wp_get_attachment_url(get_post_thumbnail_id($post->ID), 'thumbnail'); ?>
-            <img src="<?= $img_url ?>" />
+            <a href="<?php the_permalink(); ?>"><img src="<?= $img_url ?>" /></a>
 
             <div class="project-copy">
                 <h5><?= $query->current_post + 1 ?>.</h5>

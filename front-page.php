@@ -10,6 +10,7 @@
     $args = array(
         'post_type'              => array( 'jetpack-portfolio' ),
         'order'                  => 'ASC',
+        'posts_per_page'         => -1
     );
 
     $query = new WP_Query($args);

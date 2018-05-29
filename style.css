@@ -201,6 +201,26 @@ h3 a {
     max-height: 100%;
 }
 
+.moretext {
+    display: inline-block;
+    border: 1px solid #667570;
+    border-radius: 2px;
+    padding: 13px;
+}
+
+a .moretext {
+    color: #667570;
+}
+
+.moretext:hover {
+    display: inline-block;
+    background-color: #667570
+}
+
+a .moretext:hover {
+    color: #fff;
+}
+
 .top-nav ul {
     list-style: none;
     padding: 1% 2%;

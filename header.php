@@ -25,7 +25,7 @@
     <?php } ?>
     
     <ul class="nav-links"> 
-      <li><a target="_blank" href="https://emmagrdina.com/blog/">Blog</a></li>
+      <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
       <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>
 

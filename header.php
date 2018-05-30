@@ -25,7 +25,11 @@
     <?php } ?>
     
     <ul class="nav-links"> 
+    <?php if (is_front_page()) { ?>
         <li><a href="#Work">Work</a></li>
+    <?php } else { ?>
+        <li><a href="<?= get_site_url() . '#Work' ?>">Work</a></li> 
+    <?php } ?>    
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>

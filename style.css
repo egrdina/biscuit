@@ -221,6 +221,26 @@ a .moretext:hover {
     color: #fff;
 }
 
+.next-posts {
+    width: 100%;
+    text-align: center;
+}
+
+.next-posts a {
+    font-family: Montserrat-Regular;
+    color: #fff;
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    background-color: #667570;
+    border-radius: 2px;
+    padding: 13px;
+}
+
+.next-posts a:hover {
+    background-color: #778882;
+}
+
 .top-nav ul {
     list-style: none;
     padding: 1% 2%;

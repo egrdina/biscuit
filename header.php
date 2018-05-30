@@ -25,8 +25,9 @@
     <?php } ?>
     
     <ul class="nav-links"> 
-      <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
-      <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
+        <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>
 
     <?php /*wp_nav_menu( array(

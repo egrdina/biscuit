@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="project-header">
-    <h1>My work</h1>
+<div id="Work" class="project-header">
+    <h1>Work</h1>
 </div>
 
 <div class="projects">

@@ -22,7 +22,7 @@
             </a>
         </li>
     </ul>
-    <br><h4>© Emma Grdina <?= date("Y") ?></h4>
+    <br><h4>© Made with love by Emma Grdina <?= date("Y") ?></h4>
 </div>
 
 <?php wp_footer(); ?>

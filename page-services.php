@@ -11,9 +11,9 @@
 </div>
 
 <div class="content">
-    <p>Whether you’re a bride-to-be in need of an invitation suite or a small business who wants to spruce up their online presence, I’d love to work with you.</p>
+    <p>Whether you’re a bride or groom planning your wedding and in need of an invitation suite or a small business owner looking to spruce up your online presence, I’d love to work with you.</p>
     
-    <p>My process is rooted in the belief that design should be easy to consume and delightful to read online, interact with at an event or receive in the mail.</p>
+    <p>My process is rooted in the belief that design should be delightful and easy to consume whether you're reading a website, instagramming an event's decorations or receiving an invite in the mail.</p>
 </div> 
 
 <div class="middle-section">

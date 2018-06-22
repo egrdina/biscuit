@@ -183,10 +183,11 @@ h3 a {
 .top-section h1 {
     font-size: 3em;
     line-height: 1.3em;
+    letter-spacing: 0.01em;
 }
 
 .top-section {
-    background-color: #2a2a2a;
+    background-color: #191919;
     padding: 11em;
     margin-bottom: 4%;
 }
@@ -199,9 +200,18 @@ h3 a {
 
 .middle-section {
     background-color: #D0DCD8;
-    padding: 11em;
+    padding: 9em;
     text-align: center;
     margin-top: 4%
+}
+
+.faq h1 {
+    color: #2a2a2a;
+    margin-top: 1em;
+}
+
+.faq h3 {
+    padding-top: 20px;
 }
 
 .single-jetpack-portfolio .content p:first-child:first-letter {
@@ -451,7 +461,36 @@ i:hover {
         margin-right: 3%;
     }
 
-}
+    .top-section {
+        padding: 5em;
+        margin-bottom: 8%;
+    }
+
+    .top-section h1 {
+        font-size: 2em;
+    }
+
+    .middle-section {
+        padding: 4em;
+        margin-top: 8%; 
+    }
+
+    .middle-section h1 {
+        font-size: 2em;
+    }
+
+    .faq h1 {
+        font-size: 2em;
+    }
+
+    .faq h3 {
+        font-size: 1.5em;
+    }
+
+    .content {
+        padding: 0 5%;
+    }
+
 
 @media (max-width: 420px) {
     .logo h2 {
@@ -487,15 +526,24 @@ i:hover {
     }
 
     .project-header h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
-    .content p:first-child:first-letter {
-        font-family: PlayfairDisplay-Regular;
-        font-size: 400%;
-        float:left;
-        margin: -.3em .2em -0.3em 0;
+    .top-sectin h1 {
+        font-size: 1.5em;
     }
+
+    .middle-section {
+        padding: 3em;
+    }
+
+    .middle-section h1 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .content h3 {
+        padding-top: 1%
 }
 
 

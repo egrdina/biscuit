@@ -49,6 +49,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 body {
     font-family: Montserrat-Regular;
     font-size: 17px;
+    line-height: 27px;
     background-color: #fff;
 }
 
@@ -177,6 +178,30 @@ h3 a {
 }
 .content h2 a {
     text-decoration: none;
+}
+
+.top-section h1 {
+    font-size: 3em;
+    line-height: 1.3em;
+}
+
+.top-section {
+    background-color: #2a2a2a;
+    padding: 11em;
+    margin-bottom: 4%;
+}
+
+.middle-section h1 {
+    font-size: 3em;
+    line-height: 1.8em;
+    color: #2a2a2a;
+}
+
+.middle-section {
+    background-color: #D0DCD8;
+    padding: 11em;
+    text-align: center;
+    margin-top: 4%
 }
 
 .single-jetpack-portfolio .content p:first-child:first-letter {

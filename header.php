@@ -32,6 +32,7 @@
     <?php } ?>    
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
+        <a class="toggle-nav" href="#">&#9776;</a>
     </ul>
 
     <?php /*wp_nav_menu( array(

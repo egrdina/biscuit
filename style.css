@@ -146,6 +146,9 @@ h3 a {
     margin-top: 5%;
 }
 
+.toggle-nav {
+    display: none !important;
+}
 
 .tldr {
     background-color: #F5C551;
@@ -406,6 +409,8 @@ i:hover {
     color: #667570;
 }
 
+
+
 @media (max-width: 1024px) {
     .project img {
         max-width: 300px;
@@ -428,6 +433,33 @@ i:hover {
 
     h1 {
         font-size: 4em;
+    }
+
+    .top-nav ul {
+        margin-bottom: 0;
+    }
+
+    .toggle-nav {
+    padding: 15px;
+    margin: 15px;
+    display: inline-block !important;
+    color: #fff;
+    transition: color linear 0.15s;
+    }
+
+    .nav-links {
+    display: inline-block;
+    position: relative;
+    background: #F5C551;
+    }
+
+    .nav-links li {
+    display: none;
+        position: absolute;
+    top: 80%;
+    left: 0px;
+    padding-left: 15px;
+    background: #F5C551;
     }
 }
 

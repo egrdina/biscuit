@@ -205,7 +205,6 @@ h3 a {
     background-color: #D0DCD8;
     padding: 9em;
     text-align: center;
-    margin-top: 4%
 }
 
 .faq h1 {
@@ -381,14 +380,14 @@ a .moretext:hover {
 }
 
 .footer-social {
-    color:#2a2a2a;
+    background-color: #262626;
     padding: 4%;
     text-align: center;
 }
 
 .footer-social h4 {
     display: inline-block;
-    color: #2a2a2a;
+    color: #fff;
     margin: 0 0 1% 0;
 }
 
@@ -399,7 +398,7 @@ a .moretext:hover {
 
 .footer-social li, 
 i {
-    color:#2a2a2a;
+    color:#fff;
     display: inline-block;
     font-size: 1.5em;
     margin: 0 0.2em 0 0;
@@ -407,6 +406,43 @@ i {
 
 i:hover {
     color: #667570;
+}
+
+.values {
+    background-color: #F5C551;
+    color: #2a2a2a;
+    margin-top: 4%;
+    padding: 9em;
+}
+
+.values h1 {
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #2a2a2a;
+}
+
+.values i {
+    color: #2a2a2a;
+}
+
+.values ul {
+    display: inline-block;
+    text-align: center;
+}
+
+#one {
+    float: left;
+    width: 30%;
+    padding-left: 0;
+}
+
+#two {
+    width: 30%;
+}
+
+#three {
+    float: right;
+    width: 30%;
 }
 
 

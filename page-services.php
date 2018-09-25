@@ -18,15 +18,17 @@
 
 <div class='values'>
     <h1>Values</h1>
-    <ul id="one"><i class="fas fa-hand-holding-heart"></i><p>Collaboration</p> 
-        <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
-    </ul>
-    <ul id="two"><i class="fas fa-mobile-alt"></i><p>Communication</p>
-        <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
-    </ul>
-    <ul id="three"><i class="fas fa-heart"></i><p>Intention</p>
-        <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I am to infuse meaning into everything I make.</p>
-    </ul>
+    <div class='items'>
+        <ul id="one"><p>Collaboration</p> 
+            <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
+        </ul>
+        <ul id="two"><p>Communication</p>
+            <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
+        </ul>
+        <ul id="three"><p>Intention</p>
+            <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I am to infuse meaning into everything I make.</p>
+        </ul>
+    </div>
 </div>
 
 
@@ -58,7 +60,13 @@
         <p>Designing in a newsroom taught me not only how to work quickly but also how to prioritize ruthlessly. Every project has a timeline which is tailored to its unique considerations. Some factors include but are not limited to designs you need, when your deadline is and my current workload.</p>
 
         <p>I aim for no surprises throughout my design process regardless of the timeline. Communication and collaboration are key to your success and happiness and mine.</p>
+    <div class='me'>
+        <img src="" alt="Emma Grdina" />
+        <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>
+    </div>
+
     </div> 
+
 </div>
 
 <?php get_footer(); ?>

@@ -412,7 +412,7 @@ i:hover {
     background-color: #F5C551;
     color: #2a2a2a;
     margin-top: 4%;
-    padding: 9em;
+    padding: 12%;
 }
 
 .values h1 {
@@ -421,19 +421,13 @@ i:hover {
     color: #2a2a2a;
 }
 
-.values i {
-    color: #2a2a2a;
-}
-
-.values ul {
-    display: inline-block;
-    text-align: center;
+.items {
+	display: inline-block;
+	text-align: center;
 }
 
 #one {
-    float: left;
     width: 30%;
-    padding-left: 0;
 }
 
 #two {
@@ -441,8 +435,17 @@ i:hover {
 }
 
 #three {
-    float: right;
     width: 30%;
+}
+
+.values ul {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.me p {
+	text-align: center;
+	font-family: Montserrat-bold, sans-serif;
 }
 
 

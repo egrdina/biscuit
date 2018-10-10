@@ -409,7 +409,6 @@ i:hover {
 }
 
 .values {
-    background-color: #F5C551;
     color: #2a2a2a;
     margin-top: 4%;
     padding: 12%;
@@ -533,12 +532,13 @@ i:hover {
     }
 
     .top-section {
-        padding: 5em;
+        padding: 3em 2em;
         margin-bottom: 8%;
     }
 
     .top-section h1 {
-        font-size: 2em;
+        font-size: 1.1em;
+        line-height: 1.5em;
     }
 
     .middle-section {
@@ -562,6 +562,21 @@ i:hover {
         padding: 0 5%;
     }
 
+    #one {
+        display: block;
+        width: 100%;
+    }
+
+    #two {
+        display: block;
+        width: 100%;
+    }
+
+
+    #three {
+        display: block;
+        width: 100%;
+    }
 
 @media (max-width: 420px) {
     .logo h2 {
@@ -615,6 +630,13 @@ i:hover {
 
     .content h3 {
         padding-top: 1%
-}
+    }
 
+    .footer-social {
+        padding: 10%;
+    }
+
+    .footer-social ul {
+        padding-bottom: 5%
+    }
 

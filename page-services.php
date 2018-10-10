@@ -7,17 +7,12 @@
 <?php get_header(); ?>
 
 <div class="top-section">
-    <h1>Creativity and readability are at the heart of everything I make.</h1>
+    <h1>I'm passionate about collaborating with businesses and individuals working to make the world a better place.</h1>
 </div>
-
-<div class="content">
-    <p>I’m a firm believer that sophisticated, minimal design and striking typography lead to delightful experiences both online and IRL.</p>
-
-    <p>Every project has its own unique set of needs, but my values set me apart as a dedicated designer, passionate communicator and empathetic human.</p>
-</div> 
 
 <div class='values'>
     <h1>Values</h1>
+    <p>My work is rooted in sophisticated, minimal design with striking typography both online and IRL. Every project presents new and exciting challenges, but my values remain a constant whether I'm designing a custom wordpress website or a full invitation suite.</p>
     <div class='items'>
         <ul id="one"><p>Collaboration</p> 
             <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
@@ -26,7 +21,7 @@
             <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
         </ul>
         <ul id="three"><p>Intention</p>
-            <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I am to infuse meaning into everything I make.</p>
+            <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I infuse meaning into everything I make.</p>
         </ul>
     </div>
 </div>
@@ -36,7 +31,7 @@
     <h5>Services</h5>
     <h1>Web design</h1>    
     <h1>Brand packages</h1>
-    <h1>Invitation suites</h1>
+    <h1>Marketing design</h1>
 </div>
 
 <div class="faq">
@@ -61,7 +56,7 @@
 
         <p>I aim for no surprises throughout my design process regardless of the timeline. Communication and collaboration are key to your success and happiness and mine.</p>
     <div class='me'>
-        <img src="" alt="Emma Grdina" />
+        <img src="r" alt="Emma Grdina" />
         <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>
     </div>
 

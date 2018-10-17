@@ -9,14 +9,6 @@
 </head>
 <body <?php body_class(); ?>>
 
-<?php if (is_front_page()) { ?>
-    <div class="tldr">
-        <h5>Hello, I'm</h5>
-            <h1>Emma Grdina</h1>
-        <h5>a designer and baker living in Washington D.C.</h5>
-    </div>
-<?php } ?>
-
 <div class="top-nav">
     <?php if (!is_front_page()) { ?>
         <div class="logo">
@@ -25,6 +17,7 @@
     <?php } ?>
     
     <ul class="nav-links"> 
+        <a class="toggle-nav" href="#">&#9776;</a>
     <?php if (is_front_page()) { ?>
         <li><a href="#Work">Work</a></li>
     <?php } else { ?>
@@ -32,7 +25,6 @@
     <?php } ?>    
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
-        <a class="toggle-nav" href="#">&#9776;</a>
     </ul>
 
     <?php /*wp_nav_menu( array(
@@ -42,3 +34,13 @@
     ) ); */?>
     </div>
 </div>
+
+<?php if (is_front_page()) { ?>
+    <div class="tldr">
+        <h5>Hello, I'm</h5>
+            <h1>Emma Grdina</h1>
+        <h5>a freelance graphic designer. I'm passionate about making information accessible and using design to ultimately make the world a more delightful, inclusive place.</h5>
+    </div>
+<?php } ?>
+
+

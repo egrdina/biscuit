@@ -473,8 +473,22 @@ i:hover {
         font-size: 4em;
     }
 
+    .project-header h1 {
+        font-size: 2em;
+        margin-bottom: 3%;
+    }
+
     .top-nav ul {
         margin-bottom: 0;
+    }
+
+    .home .top-nav {
+        margin-bottom: 0;
+    }
+
+    .home .tldr {
+        padding: 0 8% 10% 8%;
+        margin-bottom: 6%;
     }
 
     .toggle-nav {
@@ -493,7 +507,7 @@ i:hover {
 
     .nav-links li {
     display: none;
-        position: absolute;
+    position: static;
     top: 80%;
     left: 0px;
     padding-left: 15px;
@@ -589,13 +603,13 @@ i:hover {
     }
 
     .home .tldr {
-    padding: 10% 5%; 
+    padding: 0 10% 8%; 
     }
 
     h1 {
-        font-size: 4em;
+        font-size: 2em;
         line-height: 1.1em;
-        margin: 0% 0 6%;
+        margin: 0% 0 2%;
     }
 
     h4 {
@@ -612,7 +626,7 @@ i:hover {
     }
 
     .project-header h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .top-sectin h1 {

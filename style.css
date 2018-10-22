@@ -55,7 +55,7 @@ body {
 
 h1 {
     font-family: "PlayfairDisplay-Regular", Georgia, serif;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     color:#ffffff;
     line-height: 1em;
@@ -184,10 +184,14 @@ h3 a {
     text-decoration: none;
 }
 
-.top-section h1 {
-    font-size: 3em;
+.top-section p {
+    font-family: "PlayfairDisplay-Regular", Georgia, serif;
+    font-size: 2em;
     line-height: 1.3em;
     letter-spacing: 0.01em;
+    color: #fff;
+    text-align: center;
+    padding: 0 3em;
 }
 
 .top-section {
@@ -196,8 +200,9 @@ h3 a {
     margin-bottom: 6%;
 }
 
-.middle-section h1 {
-    font-size: 3em;
+.middle-section p { 
+    font-family: "PlayfairDisplay-Regular", Georgia, serif;
+    font-size: 2em;
     line-height: 1.8em;
     color: #2a2a2a;
 }
@@ -425,6 +430,12 @@ i:hover {
     padding-top: 26px;
 }
 
+.items i {
+    color:#262626;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0 0.2em 0 0;
+}
 
 .values ul {
     display: inline-block;
@@ -439,6 +450,10 @@ i:hover {
 
 
 @media (max-width: 1024px) {
+    .top-section {
+        padding: 6em;
+    }
+
     .project img {
         max-width: 300px;
     }
@@ -452,7 +467,6 @@ i:hover {
 @media (max-width: 768px) {
     .top-nav {
         text-align: left;
-        margin-bottom: 5%;
     }
 
     .nav-links a:hover {
@@ -465,15 +479,19 @@ i:hover {
     }
 
     .tldr h5 {
-    padding: 0 5%;
+        padding: 0 5%;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 
     .content {
         margin: 0;
     }
 
-    h1 {
-        font-size: 4em;
+    .top-section {
+        padding: 5em;
     }
 
     .project-header h1 {
@@ -557,7 +575,7 @@ i:hover {
         margin-bottom: 8%;
     }
 
-    .top-section h1 {
+    .top-section p {
         font-size: 1.1em;
         line-height: 1.5em;
     }
@@ -567,7 +585,8 @@ i:hover {
         margin-top: 8%; 
     }
 
-    .middle-section h1 {
+    .middle-section p {
+        font-family: "PlayfairDisplay-Regular", Georgia, serif;
         font-size: 2em;
     }
 
@@ -592,7 +611,6 @@ i:hover {
         display: block;
         width: 100%;
     }
-
 
     #three {
         display: block;
@@ -644,7 +662,8 @@ i:hover {
         padding: 3em;
     }
 
-    .middle-section h1 {
+    .middle-section p {
+        font-family: "PlayfairDisplay-Regular", Georgia, serif;
         font-size: 1.5em;
         line-height: 1.5em;
     }

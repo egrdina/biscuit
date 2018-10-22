@@ -7,21 +7,26 @@
 <?php get_header(); ?>
 
 <div class="top-section">
-    <h1>I'm passionate about collaborating with businesses and individuals working to make the world a better place.</h1>
+    <p>My work is rooted in sophisticated, minimal design with striking typography that delivers your message online or IRL.</p>
 </div>
 
 <div class='content values'>
     <h1>Values</h1>
-    <p>My work is rooted in sophisticated, minimal design with striking typography both online and IRL. Every project presents new and exciting challenges, but my values remain a constant whether I'm designing a website or a full invitation suite.</p>
+    <p>Every project presents new and exciting challenges, but my values remain a constant whether I'm designing a website or a full invitation suite.</p>
     <div class='items'>
-        <i class="fas fa-handshake"></i>
-        <ul id="one"><p>Collaboration</p> 
+        <ul id="one">
+            <i class="fas fa-handshake"></i>
+            <p>Collaboration</p> 
             <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
         </ul>
-        <ul id="two"><p>Communication</p>
+        <ul id="two">
+            <i class="fas fa-mobile-alt"></i>
+            <p>Communication</p>
             <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
         </ul>
-        <ul id="three"><p>Intention</p>
+        <ul id="three">
+            <i class="fas fa-heart"></i>
+            <p>Intention</p>
             <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I infuse meaning into everything I make.</p>
         </ul>
     </div>
@@ -30,9 +35,10 @@
 
 <div class="middle-section">
     <h5>Services</h5>
-    <h1>Web design</h1>    
-    <h1>Brand packages</h1>
-    <h1>Marketing design</h1>
+    <p>Web design</p>    
+    <p>Brand packages</p>
+    <p>Marketing design</p>
+    <p>UX and design consultation</p>
 </div>
 
 <div class="faq">
@@ -48,14 +54,19 @@
         <p>It would be helpful for me to know any ideas you have and what your deadline might be. That’s it! Then I will reach out to you about potential next steps.</p> 
 
         <h3>I sent you an email. Now what?</h3> 
-        <p>I try to respond to emails within 48 hours of receiving them. My first step is always to learn more about you, your goals and design needs, ideally over the phone if the stars align. Phone calls give me the opportunity to get a quick sense of where you are in your own timeline and how we might collaborate.</p> 
+        <p>I try to respond to emails within 48 hours of receiving them. Then my next step is learning more about you, your goals and design needs, ideally over the phone if the stars align. Phone calls give me the opportunity to get a quick sense of where you are in your own timeline and how we might collaborate.</p> 
 
-        <p>After I learn more about you and your project, then I create several package options. When you select which package best meets your needs, I require a non-refundable 50% deposit before starting a project.</p> 
+        <p>After I learn more about you and your project, then I create several package options to provide you with a range of design assets at various price points. When you select which package best meets your needs, I require a non-refundable 50% deposit before starting a project.</p> 
 
         <h3>What if my project has a quick turnaround?</h3>
-        <p>Designing in a newsroom taught me not only how to work quickly but also how to prioritize ruthlessly. Every project has a timeline which is tailored to its unique considerations. Some factors include but are not limited to designs you need, when your deadline is and my current workload.</p>
+        <p>Designing in a newsroom taught me not only how to work quickly but also how to prioritize ruthlessly. Every project has a timeline tailored to its unique considerations. Some factors include but are not limited to designs you need, the deadline and my current workload.</p>
 
         <p>Communication and collaboration starting on day one of our working together are key to your success and happiness and mine.</p>
+
+        <h3>Not sure where to start?</h3>
+        <p>Whether you have an existing visual identity or you're looking to spruce up your digital footprint, I offer free 15-min. UX and design consultations. During these calls we'll walk through your existing design assets (website, social graphics, etc.) and I'll share where I see opportunities for improvement.</p>
+        <p>Then it's up to you to decide if you'd like to keep the conversation going! I know design can feel overwhelming. Let me help you make sense of it all.</p>
+
     <div class='me'>
         <img src="images/emmagrdina.png" alt="Emma Grdina" />
         <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>

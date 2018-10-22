@@ -454,9 +454,20 @@ i:hover {
     padding-left: 10%;
 }
 
+.me {
+    padding: 5%;
+}
+
 .me p {
 	text-align: center;
 	font-family: Montserrat-bold, sans-serif;
+}
+
+.me img { 
+    width: 110px;
+    display: block;
+    margin: auto;
+    padding-bottom: 1%;
 }
 
 

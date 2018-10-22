@@ -10,10 +10,11 @@
     <h1>I'm passionate about collaborating with businesses and individuals working to make the world a better place.</h1>
 </div>
 
-<div class='values'>
+<div class='content values'>
     <h1>Values</h1>
-    <p>My work is rooted in sophisticated, minimal design with striking typography both online and IRL. Every project presents new and exciting challenges, but my values remain a constant whether I'm designing a custom wordpress website or a full invitation suite.</p>
+    <p>My work is rooted in sophisticated, minimal design with striking typography both online and IRL. Every project presents new and exciting challenges, but my values remain a constant whether I'm designing a website or a full invitation suite.</p>
     <div class='items'>
+        <i class="fas fa-handshake"></i>
         <ul id="one"><p>Collaboration</p> 
             <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
         </ul>
@@ -42,7 +43,7 @@
         <p>Whether you’re a small business who wants to spruce up their online presence or you’re launching a passion project, I’d love to work with you.</p> 
 
         <h3>I’m not entirely sure what I need, but I have a general idea. What should I do?</h3>
-        <p>Email me! You can always find me at emmagrdina@gmail.com.</p>
+        <p>Email me at emmagrdina@gmail.com.</p>
 
         <p>It would be helpful for me to know any ideas you have and what your deadline might be. That’s it! Then I will reach out to you about potential next steps.</p> 
 
@@ -54,14 +55,11 @@
         <h3>What if my project has a quick turnaround?</h3>
         <p>Designing in a newsroom taught me not only how to work quickly but also how to prioritize ruthlessly. Every project has a timeline which is tailored to its unique considerations. Some factors include but are not limited to designs you need, when your deadline is and my current workload.</p>
 
-        <p>I aim for no surprises throughout my design process regardless of the timeline. Communication and collaboration are key to your success and happiness and mine.</p>
+        <p>Communication and collaboration starting on day one of our working together are key to your success and happiness and mine.</p>
     <div class='me'>
-        <img src="r" alt="Emma Grdina" />
+        <img src="images/emmagrdina.png" alt="Emma Grdina" />
         <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>
     </div>
-
     </div> 
-
 </div>
-
 <?php get_footer(); ?>

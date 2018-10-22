@@ -180,6 +180,7 @@ h3 a {
 .content h2 {
     margin-bottom: 1em;
 }
+
 .content h2 a {
     text-decoration: none;
 }
@@ -209,7 +210,7 @@ h3 a {
 
 .middle-section {
     background-color: #D0DCD8;
-    padding: 9em;
+    padding: 7% 9%;
     text-align: center;
 }
 
@@ -218,8 +219,8 @@ h3 a {
     margin-top: 1em;
 }
 
-.faq h3 {
-    padding-top: 20px;
+.faq .content {
+    padding: 0 5% 7%;
 }
 
 .single-jetpack-portfolio .content p:first-child:first-letter {
@@ -231,12 +232,14 @@ h3 a {
 
 .content {
     background-color: #ffffff;
-    margin: 0 15em;
+    margin: 0 13em;
     padding: 3% 5%;
 }
+
 .content a {
     text-decoration: underline;
 }
+
 .content img {
     width: 100%;
     max-width: 100%;
@@ -414,6 +417,12 @@ i:hover {
     color: #667570;
 }
 
+.question {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-top: 5%;
+}
+
 .values {
     margin-bottom: 5em;
 }
@@ -491,7 +500,11 @@ i:hover {
     }
 
     .top-section {
-        padding: 5em;
+        padding: 12% 1%;
+    }
+
+    .middle-section {
+        padding: 10% 0;
     }
 
     .project-header h1 {

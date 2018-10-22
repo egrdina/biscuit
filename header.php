@@ -25,6 +25,7 @@
     <?php } ?>    
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
+        <li><a href="<?= get_site_url() . '/services' ?>">Services</a></li>
     </ul>
 
     <?php /*wp_nav_menu( array(
@@ -39,7 +40,7 @@
     <div class="tldr">
         <h5>Hello, I'm</h5>
             <h1>Emma Grdina</h1>
-        <h5>a freelance graphic designer. I'm passionate about making information accessible and using design to ultimately make the world a more delightful, inclusive place.</h5>
+        <h5>a freelance graphic designer. I'm passionate about using design to make the world a more delightful, inclusive place.</h5>
     </div>
 <?php } ?>
 

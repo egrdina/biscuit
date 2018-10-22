@@ -10,22 +10,34 @@
 <body <?php body_class(); ?>>
 
 <div class="top-nav">
-    <?php if (!is_front_page()) { ?>
-        <div class="logo">
-            <h2><a href="<?= home_url()?>">Emma Grdina</a></h2>
-        </div>
-    <?php } ?>
-    
-    <ul class="nav-links"> 
+    <ul class="nav-links nav-links-mobile"> 
         <a class="toggle-nav" href="#">&#9776;</a>
     <?php if (is_front_page()) { ?>
         <li><a href="#Work">Work</a></li>
     <?php } else { ?>
         <li><a href="<?= get_site_url() . '#Work' ?>">Work</a></li> 
     <?php } ?>    
+        <li><a href="<?= get_site_url() . '/services' ?>">Services</a></li>
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
+    </ul>
+
+    <?php if (!is_front_page()) { ?>
+        <div class="logo">
+            <h2><a href="<?= home_url()?>">Emma Grdina</a></h2>
+        </div>
+    <?php } ?>
+    
+    <ul class="nav-links nav-links-desktop"> 
+        <a class="toggle-nav" href="#">&#9776;</a>
+    <?php if (is_front_page()) { ?>
+        <li><a href="#Work">Work</a></li>
+    <?php } else { ?>
+        <li><a href="<?= get_site_url() . '#Work' ?>">Work</a></li> 
+    <?php } ?>    
         <li><a href="<?= get_site_url() . '/services' ?>">Services</a></li>
+        <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
+        <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>
 
     <?php /*wp_nav_menu( array(

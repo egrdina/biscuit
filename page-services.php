@@ -68,7 +68,7 @@
         <p>Then it's up to you to decide if you'd like to keep the conversation going! I know design can feel overwhelming. Let me help you make sense of it all.</p>
 
     <div class='me'>
-        <img src="images/emmagrdina.png" alt="Emma Grdina" />
+        <img src="<?php echo get_template_directory_uri() ?>/images/emmagrdina.png" alt="Emma Grdina" />
         <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>
     </div>
     </div> 

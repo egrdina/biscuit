@@ -16,18 +16,24 @@
     <div class='items'>
         <ul id="one">
             <i class="fas fa-handshake"></i>
-            <p class="value-header">Collaboration</p> 
-            <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
+            <div class="value-text">
+                <p class="value-header">Collaboration</p> 
+                <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
+            </div>
         </ul>
         <ul id="two">
             <i class="fas fa-mobile-alt"></i>
-            <p class="value-header">Communication</p>
-            <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
+            <div class="value-text">
+                <p class="value-header">Communication</p>
+                <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
+            </div>
         </ul>
         <ul id="three">
             <i class="fas fa-heart"></i>
-            <p class="value-header">Intention</p>
-            <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I infuse meaning into everything I make.</p>
+            <div class="value-text">
+                <p class="value-header">Intention</p>
+                <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I infuse meaning into everything I make.</p>
+            </div>
         </ul>
     </div>
 </div>
@@ -69,7 +75,7 @@
 
     <div class='me'>
         <img src="<?php echo get_template_directory_uri() ?>/images/emmagrdina.png" alt="Emma Grdina" />
-        <p>Have another question? Ready to get started? Say hello at emmagrdina@gmail.com.</p>
+        <p>Have another question? Ready to get started? Say hello at <a href="mailto:emmagrdina@gmail.com">emmagrdina@gmail.com.</a></p>
     </div>
     </div> 
 </div>

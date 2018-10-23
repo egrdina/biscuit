@@ -16,17 +16,17 @@
     <div class='items'>
         <ul id="one">
             <i class="fas fa-handshake"></i>
-            <p>Collaboration</p> 
+            <p class="value-header">Collaboration</p> 
             <p>Before I create anything, I like to learn about your goals and how you define success. Your motivations inform my design decisions and the overall strategy.</p>
         </ul>
         <ul id="two">
             <i class="fas fa-mobile-alt"></i>
-            <p>Communication</p>
+            <p class="value-header">Communication</p>
             <p>I believe there is a time and a place for surprises, and your project is not one of them. As a client, you will receive regular updates and have the opportunity to provide feedback throughout our time working together.</p>
         </ul>
         <ul id="three">
             <i class="fas fa-heart"></i>
-            <p>Intention</p>
+            <p class="value-header">Intention</p>
             <p> Designs created with a purpose are not only easy to consume but they radiate energy and excitement. Audiences can tell when something has intention behind it, and I infuse meaning into everything I make.</p>
         </ul>
     </div>
@@ -34,7 +34,7 @@
 
 
 <div class="middle-section">
-    <h5>Services</h5>
+    <h1>Services</h1>
     <p>Web design</p>    
     <p>Brand packages</p>
     <p>Marketing design</p>
@@ -44,7 +44,7 @@
 <div class="faq">
     <h1>FAQ</h1>
     <div class="content">
-        <p class="question">I know what I need, but I don’t see it listed above. Can we still work together?</p>
+        <p class="question first">I know what I need, but I don’t see it listed above. Can we still work together?</p>
         <p>My list of services provides a general idea of my capabilities, but the packages I offer are adjusted for every client’s individual needs. I’m a digital product designer by trade, and I have experience ranging from designing invitation suites and social media graphics to custom, multi-page, responsive websites.</p> 
         <p>Whether you’re a small business who wants to spruce up their online presence or you’re launching a passion project, I’d love to work with you.</p> 
 
@@ -64,7 +64,7 @@
         <p>Communication and collaboration starting on day one of our working together are key to your success and happiness and mine.</p>
 
         <p class="question">Not sure where to start?</p>
-        <p>Whether you have an existing visual identity or you're looking to spruce up your digital footprint, I offer free 15-min. UX and design consultations. During these calls we'll walk through your existing design assets (website, social graphics, etc.) and I'll share where I see opportunities for improvement.</p>
+        <p>Whether you want to spruce up an existing visual identity or you have a hunch you need a designer but don't know where to start, I offer free 15-min. UX and design consultations. During these calls we'll walk through any existing design assets you may have (website, social graphics, etc.), and I'll share where I see opportunities for improvement.</p>
         <p>Then it's up to you to decide if you'd like to keep the conversation going! I know design can feel overwhelming. Let me help you make sense of it all.</p>
 
     <div class='me'>

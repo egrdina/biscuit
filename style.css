@@ -156,6 +156,10 @@ h3 a {
     text-align: center;
 }
 
+.tldr h1 {
+    font-size: 4em;
+}
+
 .single-jetpack-portfolio .tldr {
     background-color: #2a2a2a;
     color: #ffffff;
@@ -201,6 +205,13 @@ h3 a {
     margin-bottom: 6%;
 }
 
+.middle-section h1 {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #2a2a2a;
+    padding-bottom: 1%;
+}
+
 .middle-section p { 
     font-family: "PlayfairDisplay-Regular", Georgia, serif;
     font-size: 2em;
@@ -212,15 +223,18 @@ h3 a {
     background-color: #D0DCD8;
     padding: 7% 9%;
     text-align: center;
+    margin-bottom: 4em;
 }
 
 .faq h1 {
     color: #2a2a2a;
     margin-top: 1em;
+    font-family: "Montserrat-Bold"; Arial, sans-serif;
+    font-size: 18px;
 }
 
 .faq .content {
-    padding: 0 5% 7%;
+    padding: 0 5% 5%;
 }
 
 .single-jetpack-portfolio .content p:first-child:first-letter {
@@ -421,19 +435,28 @@ i:hover {
 }
 
 .question {
-    font-size: 1.2em;
-    font-weight: 700;
+    font-family: Montserrat-Bold;
+    font-size: 1em;
     padding-top: 5%;
 }
 
+.first {
+    padding-top: 1%;
+}
+
 .values {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .values h1 {
-    font-family: Montserrat-Regular;
+    font-family: Montserrat-Bold, Arial, sans-serif;
     font-size: 18px;
     color: #2a2a2a;
+}
+
+.value-header {
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    margin-bottom: 2px;
 }
 
 .items {
@@ -446,12 +469,12 @@ i:hover {
     color:#262626;
     display: inline-block;
     font-size: 1.5em;
-    margin: 0 0.2em 0 0;
+    margin: 0 0.2em 7px 0;
 }
 
 .values ul {
     display: inline-block;
-    padding-left: 10%;
+    padding-left: 0;
 }
 
 .me {
@@ -662,13 +685,17 @@ i:hover {
     }
 
     .home .tldr {
-    padding: 0 10% 8%; 
+    padding: 0 10% 10%; 
     }
 
     h1 {
         font-size: 2em;
         line-height: 1.1em;
         margin: 0% 0 2%;
+    }
+
+    .tldr h1 {
+        font-size: 3em;
     }
 
     h4 {

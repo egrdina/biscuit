@@ -105,6 +105,10 @@ h3 a {
     color: #2a2a2a;
 }
 
+strong {
+    font-family: "Montserrat-Bold"; Arial, sans-serif;
+}
+
 .top-nav {
     font-family: Montserrat-Regular;
     background-color: #F5C551;
@@ -126,15 +130,7 @@ h3 a {
 }
 
 .logo {
-    padding: 15px;
     border-bottom: 2px solid #F5C551;
-}
-.logo:hover {
-    border-bottom: 2px solid #ffffff;
-}
-.logo a:hover {
-    color: #fff;
-    -webkit-font-smoothing: never;
 }
 
 .logo h2 {
@@ -206,7 +202,7 @@ h3 a {
 }
 
 .middle-section h1 {
-    font-family: Montserrat-Bold;
+    font-family: "Montserrat-Bold"; Arial, sans-serif;
     font-size: 18px;
     color: #2a2a2a;
     padding-bottom: 1%;
@@ -235,13 +231,6 @@ h3 a {
 
 .faq .content {
     padding: 0 5% 5%;
-}
-
-.single-jetpack-portfolio .content p:first-child:first-letter {
-    font-family: PlayfairDisplay-Regular;
-    font-size: 500%;
-    float:left;
-    margin: -.3em .1em -0.3em 0;
 }
 
 .content {
@@ -285,6 +274,7 @@ a .moretext:hover {
 .next-posts {
     width: 100%;
     text-align: center;
+    padding-bottom: 3%;
 }
 
 .next-posts a {
@@ -564,6 +554,7 @@ i:hover {
     .top-nav ul {
         margin-bottom: 0;
         width: 60px;
+        padding: 1% 0;
     }
 
     .home .top-nav {
@@ -576,17 +567,17 @@ i:hover {
     }
 
     .toggle-nav {
-    padding: 15px;
-    margin: 15px;
-    display: inline-block !important;
-    color: #fff;
-    transition: color linear 0.15s;
+        padding: 15px;
+        margin: 15px;
+        display: inline-block !important;
+        color: #fff;
+        transition: color linear 0.15s;
     }
 
     .nav-links {
-    display: inline-block;
-    position: relative;
-    background: #F5C551;
+        display: inline-block;
+        position: relative;
+        background: #F5C551;
     }
 
     .nav-links-desktop {
@@ -594,13 +585,13 @@ i:hover {
     }
 
     .nav-links li {
-    display: none;
-    position: static;
-    top: 80%;
-    left: 0px;
-    padding-left: 15px;
-    background: #F5C551;
-    width: 200px;
+        display: none;
+        position: static;
+        top: 80%;
+        left: 0px;
+        padding-left: 15px;
+        background: #F5C551;
+        width: 200px;
     }
 
     .footer-social {
@@ -639,7 +630,7 @@ i:hover {
     }
 
     .top-section {
-        padding: 3em 2em;
+        padding: 3em .5em;
         margin-bottom: 8%;
     }
 

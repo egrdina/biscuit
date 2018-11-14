@@ -31,6 +31,7 @@ function biscuit_scripts_styles() {
     wp_enqueue_style('fonts', 'https://fonts.googleapis.com/css?family=Karma|Raleway:500');
 	wp_enqueue_style('biscuit-style', get_stylesheet_uri());
 	wp_enqueue_style( 'font-awesome-free', '//use.fontawesome.com/releases/v5.2.0/css/all.css' );
+	wp_enqueue_style( 'font-awesome-free','//cdn-images.mailchimp.com/embedcode/slim-10_7.css');
 }
 
 add_action('wp_enqueue_scripts', 'biscuit_scripts_styles');

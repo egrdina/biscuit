@@ -4,7 +4,7 @@
     <title><?php wp_title( '|', true, 'right' ); ?>Emma Grdina</title>
 	<meta charset=utf-8 />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:image" content="/images/favicon.png" alt="Emma Grdina"/>
+    <meta property="og:image" content="<?php echo get_template_directory_uri() ?>/images/favicon.png" alt="Emma Grdina"/>
     <meta property="og:description" content="Emma Grdina is a freelance graphic designer who uses sophisticated, minimal design with striking typography to delivers your message online or IRL." />
 
     <?php wp_head(); ?>

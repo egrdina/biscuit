@@ -714,6 +714,10 @@ input {
         width: 100%;
     }
 
+    .blog .top-nav {
+        margin-bottom: 5%;
+    }
+
 @media (max-width: 420px) {
     .logo h2 {
     font-size: 1.1em;

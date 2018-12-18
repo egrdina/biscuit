@@ -57,7 +57,7 @@
     <div class="tldr">
         <h5>Hello, I'm</h5>
             <h1>Emma Grdina</h1>
-        <h5>a digital product designer with a history of creating websites users love and trust. I’m passionate about using design to make the world a more delightful, inclusive place.</h5>
+        <h5>a freelance digital product designer. I create websites users love and trust, and I’m passionate about using design to make the world a more delightful, inclusive place.</h5>
     </div>
 <?php } ?>
 

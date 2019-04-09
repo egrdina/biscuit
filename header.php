@@ -1,27 +1,15 @@
-<!DOCTYPE html>
-<html lang=en>
-<head>
-    <title><?php wp_title( '|', true, 'right' ); ?> Emma Grdina</title>
-	<meta charset=utf-8 />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<?php
+/**
+ * Third party plugins that hijack the theme will call wp_head() to get the header template.
+ * We use this to start our output buffer and render into the view/page-plugin.twig template in footer.php
+ *
+ * If you're not using a plugin that requries this behavior (ones that do include Events Calendar Pro and
+ * WooCommerce) you can delete this file and footer.php
+ *
+ * @package  WordPress
+ * @subpackage  Timber
+ * @since   Timber 0.1
+ */
 
-    <?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?>>
-
-<div class="top-nav">
-    <div class="logo">
-    <h2><a href="<?= home_url()?>">Emma Grdina</a></h2>
-    </div>
-    <ul class="nav-links"> 
-      <li><a target="_blank" href="https://emmagracegrdina.com/">Blog</a></li>
-      <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
-    </ul>
-
-    <?php /*wp_nav_menu( array(
-        'theme_location' => 'primary',
-        'container' => false,
-        'menu_class' => 'nav-links'
-    ) ); */?>
-    </div>
-</div>
+$GLOBALS['timberContext'] = Timber::context();
+ob_start();

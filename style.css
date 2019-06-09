@@ -2,7 +2,7 @@
 Theme Name: Biscuit
 Author: Emma Grdina
 Description: Theme for my personal portfolio
-Version: 1.0.1
+Version: 1.0.2
 License: MIT
 */
 
@@ -414,6 +414,7 @@ a .moretext:hover {
     background-color: #111;
     padding: 4%;
     text-align: center;
+    margin-top: 40px;
 }
 
 .footer-social h4 {

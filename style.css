@@ -271,6 +271,16 @@ a .moretext:hover {
     color: #fff;
 }
 
+.portfoliomore-link {
+    color: #667570;
+    text-decoration: underline;
+}
+
+.portfoliomore-link:hover {
+    color: #404946;
+    text-decoration: underline;
+}
+
 .next-posts {
     width: 100%;
     text-align: center;

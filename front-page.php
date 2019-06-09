@@ -28,7 +28,10 @@
                         <?php the_title(); ?>
                     </a>
                 </h3>
-                <h5><?=the_excerpt() ?></h5>
+                <h5>
+                    <?=get_the_excerpt() ?>&nbsp;
+                    <a href="<?php the_permalink(); ?>" class="portfoliomore-link">Read more</a>
+                </h5>
             </div>
         </div><!-- /.project -->
     <?php }

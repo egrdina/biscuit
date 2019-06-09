@@ -55,7 +55,7 @@
     <div class="tldr">
         <h5>Hello, I'm</h5>
             <h1>Emma Grdina</h1>
-        <h5>a digital product designer. My passions lie at the intersection of storytelling, community-building and design. I'm happiest when using my design skills to make the world a more delightful, inclusive place.</h5>
+        <h5>a digital product designer. My passions lie at the intersection of storytelling, community building and design. I'm happiest when using my design skills to make the world a more delightful, inclusive place.</h5>
     </div>
 <?php } ?>
 

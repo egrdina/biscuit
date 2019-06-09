@@ -12,7 +12,7 @@
 
 <div class='content values'>
     <h1>Values</h1>
-    <p>Every project presents new and exciting challenges, but my values are consistent.</p>
+    <p>Every project presents new and exciting challenges, but my values are consistent whether you’re launching a passion project from scratch or need a website on behalf of a cause.</p>
     <div class='items'>
         <ul id="one">
             <i class="fas fa-handshake"></i>
@@ -51,7 +51,7 @@
     <div class="content">
         <p class="question first">I know what I need, but I don’t see it listed above. Can we still work together?</p>
         <p>My list of services provides a general idea of my capabilities, but the packages I offer are tailored to each client’s specific needs. My expertise lies in digital product design, but my experience ranges from invitation suites and social media graphics to custom, multi-page, responsive websites.</p> 
-        <p>Whether you’re a small business who wants to spruce up their online presence or you’re launching a passion project from scratch, I’d love to work with you.</p> 
+        <p>I do my best work when I'm designing for causes I believe in which include quote unquote women's rights, making information accessible for everyone and empowering individuals with delightful, easy-to-use online experiences.</p> 
 
         <p class="question">I’m not entirely sure what I need, but I have a general idea. What should I do?</p>
         <p>Email me at emmagrdina@gmail.com.</p>

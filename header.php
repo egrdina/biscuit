@@ -22,7 +22,6 @@
     <?php } else { ?>
         <li><a href="<?= get_site_url() . '#Work' ?>">Work</a></li> 
     <?php } ?>    
-        <li><a href="<?= get_site_url() . '/services' ?>">Services</a></li>
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>
@@ -40,7 +39,6 @@
     <?php } else { ?>
         <li><a href="<?= get_site_url() . '#Work' ?>">Work</a></li> 
     <?php } ?>    
-        <li><a href="<?= get_site_url() . '/services' ?>">Services</a></li>
         <li><a href="<?= get_site_url() . '/blog' ?>">Blog</a></li>
         <li><a href="<?= get_site_url() . '/about' ?>">About</a></li>
     </ul>

@@ -138,6 +138,10 @@ strong {
     letter-spacing: 0.5px;
 }
 
+#Work {
+    padding-top: 40px;
+}
+
 .post:not(.has-post-thumbnail) {
     margin-top: 5%;
 }

@@ -2,7 +2,7 @@
 Theme Name: Biscuit
 Author: Emma Grdina
 Description: Theme for my personal portfolio
-Version: 1.0.3
+Version: 1.0.4
 License: MIT
 */
 
@@ -604,7 +604,7 @@ input {
     }
 
     .values {
-    margin: 3em 0;
+        margin: 3em 0;
     }
 
     .top-section {
@@ -732,16 +732,16 @@ input {
 
 @media (max-width: 420px) {
     .logo h2 {
-    font-size: 1.1em;
+        font-size: 1.1em;
     }
 
     .nav-links a {
-    display: block;
-    padding: 10px;
+        display: block;
+        padding: 10px;
     }
 
     .home .tldr {
-    padding: 0 10% 10%; 
+        padding: 0 10% 10%; 
     }
 
     h1 {
@@ -764,7 +764,7 @@ input {
     }
 
     .project-copy h3 {
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
 
     .project-header h1 {
@@ -809,4 +809,4 @@ input {
     .footer-social ul {
         padding-bottom: 5%
     }
-
+}

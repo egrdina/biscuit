@@ -26,10 +26,11 @@ add_action( 'init', 'add_portfolio_excerpt_custom_fields' );
  */
 function biscuit_scripts_styles() {
 	global $wp_styles;
+	$themeVersion = wp_get_theme()->get('Version');
 
 	wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/bootstrap-3.3.7/bootstrap.min.css');
     wp_enqueue_style('fonts', 'https://fonts.googleapis.com/css?family=Karma|Raleway:500');
-	wp_enqueue_style('biscuit-style', get_stylesheet_uri());
+	wp_enqueue_style('biscuit-style', get_stylesheet_uri(), array(), $themeVersion);
 	wp_enqueue_style( 'font-awesome-free', '//use.fontawesome.com/releases/v5.2.0/css/all.css' );
 	wp_enqueue_style( 'font-awesome-free','//cdn-images.mailchimp.com/embedcode/slim-10_7.css');
 }

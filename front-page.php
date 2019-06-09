@@ -23,12 +23,12 @@
             <a href="<?php the_permalink(); ?>"><img src="<?= $img_url ?>" /></a>
 
             <div class="project-copy">
-                <h5><?= $query->current_post + 1 ?>.</h5>
                 <h3>
                     <a href="<?php the_permalink(); ?>">
                         <?php the_title(); ?>
                     </a>
                 </h3>
+                <h5><?=the_excerpt() ?></h5>
             </div>
         </div><!-- /.project -->
     <?php }

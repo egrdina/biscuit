@@ -165,7 +165,7 @@ strong {
 
 .home .tldr {
     padding: 15%;
-    margin-bottom: 5%;
+    margin-bottom: 12%;
 }
 
 .tldr h5 {
@@ -335,13 +335,13 @@ a .moretext:hover {
 
 .projects {
     max-width: 85%;
-    margin: 0 auto 0 auto;
+    margin: 3% auto 0 auto;
     padding-bottom: 3em;
 }
 
 .project {
     width: 100%;
-    padding: 0 4%;
+    padding: 1% 5%;
     display: inline-block;
 }
 
@@ -545,12 +545,27 @@ input {
         padding: 6em;
     }
 
-    .project img {
-        max-width: 300px;
-    }
-
     .content {
         margin: 0 4em;
+    }
+
+    .projects {
+        max-width: 82%;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project img {
+        max-width: 100%;
+        padding: 0;
+        padding-bottom: 14px;
+    }
+
+    .project-copy {
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
 
@@ -567,7 +582,8 @@ input {
     }
 
     .home .tldr {
-        padding: 10% 8%; 
+        padding: 0 8% 10% 8%;
+        margin-bottom: 10%;
     }
 
     .tldr h5 {
@@ -609,11 +625,6 @@ input {
         margin-bottom: -1px;
     }
 
-    .home .tldr {
-        padding: 0 8% 10% 8%;
-        margin-bottom: 6%;
-    }
-
     .toggle-nav {
         padding: 15px;
         margin: 15px;
@@ -648,33 +659,17 @@ input {
 }
 
 @media (max-width: 600px) {
-    .projects {
-        max-width: 100%;
-    }
-
-    .project {
-        display: block;
-    }
-
-    .project img {
-        max-width: 600px;
-        padding: 0;
-    }
-
-    .project-copy {
-        width: 100%;
-        margin-bottom: 12%;
-        display: flex;
-        align-items: baseline;
-    }
-
     h3 {
-        margin-top: 8px;
+        margin-top: 2px;
     }
 
     h5 {
         line-height: 1.5em;
         margin-right: 3%;
+    }
+
+    .projects {
+        max-width: 95%;
     }
 
     .top-section {
